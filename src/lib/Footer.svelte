@@ -1,4 +1,7 @@
 <script>
-    export let gitHub;
+	export let gitHub;
 </script>
-<a href="{gitHub}"> gitHub repositary </a> 
+
+<footer class="bg-success p-3 text-center">
+	<a class="text-light" href={gitHub}> gitHub repositary </a>
+</footer>
